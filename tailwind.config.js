@@ -27,6 +27,9 @@ module.exports = {
           "dark-cyan": "hsl(167, 40%, 24%)",
           "dark-blue": "hsl(198, 62%, 26%)",
           cyan: "hsl(168, 34%, 41%)",
+          "very-dark-blue": "hsl(212, 27%, 19%)",
+          "very-dark-grey-blue": "hsl(213, 9%, 39%)",
+          "dark-grey-blue": "hsl(232, 10%, 55%)",
         },
       },
       backgroundImage: (theme) => ({
