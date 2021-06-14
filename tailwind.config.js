@@ -10,7 +10,7 @@
 
 module.exports = {
   purge: {
-    enabled: false,
+    enabled: true,
     content: ["./*.html"],
   },
   darkMode: false, // or 'media' or 'class'
@@ -33,7 +33,8 @@ module.exports = {
         },
       },
       backgroundImage: (theme) => ({
-        header: "url('/images/mobile/image-header.jpg')",
+        "header-mobile": "url('/images/mobile/image-header.jpg')",
+        "header-desktop": "url('/images/desktop/image-header.jpg')",
       }),
     },
   },
